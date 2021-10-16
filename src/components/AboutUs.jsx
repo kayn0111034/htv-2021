@@ -12,7 +12,6 @@ const AboutUs = () => {
            can stay safe.
            </button>
            
-           
 
            <div>
                <h2>Alex 1?1</h2>
@@ -25,8 +24,7 @@ const AboutUs = () => {
            <div>
                <h2>Wesley Chui</h2>
                 <div>
-                    Wesley is a junior in highschool.
-                    He likes to participate in hackathons and is proficient at Python, HTML and CSS.
+                   short bio
                 </div>
                </div>
             <div>

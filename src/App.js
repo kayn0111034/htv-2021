@@ -42,7 +42,7 @@ function App() {
     <Router>
       <div className ="navBar">
         <NavBar startQuiz={()=> {getQuestions()}}></NavBar>
-        <NavBar></NavBar>
+     
       </div> 
       <Route path="/" exact render={()=>{ 
         return(
