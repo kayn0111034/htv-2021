@@ -16,13 +16,18 @@ function App() {
 
   const [quizQuestions, setQuizQuestions] = useState([]);
 
+
+
   const getQuestions = () =>{
     var questions = [];
     for (var i = 0; i < CovidQuestions.length; i++){
       questions.push({
+        id: i,
         question: CovidQuestions[i].question,
         answers: CovidQuestions[i].answers,
-        correct: CovidQuestions[i].correct
+        chosenAnswers: [], 
+        correct: CovidQuestions[i].correct,
+        completed: false
       });
       console.log(questions[i]);
     }
@@ -32,9 +37,21 @@ function App() {
 
   const getQuiz = () =>{
     return (
-      <CovidQuiz questions={quizQuestions}></CovidQuiz>
+      <CovidQuiz questions={quizQuestions} onClick={checkQuestionAnswer}></CovidQuiz>
     )
   }
+
+  const checkQuestionAnswer = (questionID, ans) =>{
+    var chosenQuestion = quizQuestions[questionID];
+    if (chosenQuestion.answers[chosenQuestion.correct - 1] == ans){
+      setQuizQuestions(quizQuestions.map((q) => q.id === questionID ? {...q, completed: true} : q));
+      console.log("correct!")
+    } else {
+      console.log("incorrect!")
+    }
+  }
+
+
 
 
 

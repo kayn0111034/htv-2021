@@ -1,6 +1,6 @@
 import QuizQuestion from './QuizQuestion'
 
-const CovidQuiz = ({questions}) => {
+const CovidQuiz = ({questions, onClick}) => {
     return (
         <div>
             <div>
@@ -8,7 +8,7 @@ const CovidQuiz = ({questions}) => {
             </div>
             <div>
                 {questions.map((q) =>(
-                    <QuizQuestion question={q}></QuizQuestion>
+                    <QuizQuestion question={q} onClick={onClick}></QuizQuestion>
                 ))}
             </div>
 
