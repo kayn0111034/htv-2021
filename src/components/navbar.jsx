@@ -8,7 +8,7 @@ const navbar = ({startQuiz}) => {
             <Link to="/home">
             <a class="navbar-brand" href="#"><b>TeamName</b></a>
             </Link>
-            <ul class="navbar-nav flex-grow-1 navbar-collapse collapse">
+            <ul class="navbar-nav justify-content-start">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                       <Link to="/quiz" onClick={startQuiz}>

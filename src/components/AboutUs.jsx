@@ -1,6 +1,6 @@
 const AboutUs = () => {
     return (
-        <div>
+        <div class="d-flex flex-column p-2">
            <h1>About Us</h1>
            <button type="button" class="btn btn-primary">
                We are a team of 4 participating in Hack the Valley 5. <br/>
