@@ -8,6 +8,7 @@ Our project is a Covid-19 Information Site which is aimed to inform children abo
 - Bootstrap
 - JavaScript
 - React
+- Node.js
 
 ## Members
 - Alex (https://github.com/ATeeter-UTSC)
