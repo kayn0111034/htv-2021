@@ -1,5 +1,5 @@
 body {
-  background-image: url("download.png");
+  background-image: url("pictures/covidpic.jpg");
   background-color: aquamarine;
   opacity: 0.8;
   margin: 0;
@@ -11,9 +11,9 @@ body {
 }
 
 div{
-  background-color: black;
-
-  opacity: 0.8;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgb(255, 255, 255);
+  
 }
 
 code {
