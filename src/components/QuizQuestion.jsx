@@ -6,7 +6,7 @@ const QuizQuestion = ( {question, onClick}) => {
 
     return (
         <div>
-            <h1>{question.question}</h1>
+            <h2>{question.question}</h2>
             {question.answers.map((ans)=>(
                     <button className="btn"  onClick={()=>{onClick(question.id, ans)}}>{ans}</button>
                 ))}

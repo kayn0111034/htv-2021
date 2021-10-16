@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Home = () => {
     return (
@@ -76,6 +77,9 @@ const Home = () => {
             </div>
             <div>
                 <h1>How well do you know Covid?</h1>
+                
+                <p>Click <Link to="/Quiz"> here</Link> to test your knowledge of Covid-19!</p>
+                
             </div>
         </div>
     )

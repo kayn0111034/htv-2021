@@ -21,7 +21,7 @@
     },
 
     {"question" : "How long should people quarantine to be safe?",
-        "answers" : ["2 Weeks", "1 Day", "3 hours", "9 Year"],
+        "answers" : ["2 Weeks", "1 Day", "3 hours", "9 Years"],
         "correct" : 1
     }
     
