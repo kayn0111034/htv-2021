@@ -14,7 +14,14 @@ const QuizQuestion = ( {question, onClick}) => {
                 <div>
                     Correct!
                 </div>  
-                : null}
+                : <div>
+                    {question.attempted ?
+                    <div>
+                        That's not quite it. Try it again!
+                    </div>
+                    :null
+                    }
+                    </div>}
             
 
             
