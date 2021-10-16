@@ -15,10 +15,11 @@ import CovidQuestions from './quizquestions.json'
 function App() {
 
   const [quizQuestions, setQuizQuestions] = useState([]);
+  const [quizStarted, setQuizStarted] = useState(false);
 
 
 
-  const getQuestions = () =>{
+  const startQuiz = () =>{
     var questions = [];
     for (var i = 0; i < CovidQuestions.length; i++){
       questions.push({
@@ -33,11 +34,12 @@ function App() {
     }
     setQuizQuestions(questions);
     console.log(quizQuestions.length)
+    setQuizStarted(true);
   }
 
   const getQuiz = () =>{
     return (
-      <CovidQuiz questions={quizQuestions} onClick={checkQuestionAnswer}></CovidQuiz>
+      <CovidQuiz quizStarted={quizStarted} onStartQuiz={startQuiz} questions={quizQuestions} onClick={checkQuestionAnswer}></CovidQuiz>
     )
   }
 
@@ -58,7 +60,7 @@ function App() {
   return (
     <Router>
       <div className ="navBar">
-        <NavBar startQuiz={()=> {getQuestions()}}></NavBar>
+        <NavBar></NavBar>
      
       </div> 
       <Route path="/" exact render={()=>{ 
