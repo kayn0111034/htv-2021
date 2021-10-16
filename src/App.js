@@ -47,7 +47,8 @@ function App() {
         answers: CovidQuestions[i].answers,
         chosenAnswers: [], 
         correct: CovidQuestions[i].correct,
-        completed: false
+        completed: false,
+        attempted: false
       });
       console.log(questions[i]);
     }
@@ -68,6 +69,7 @@ function App() {
       setQuizQuestions(quizQuestions.map((q) => q.id === questionID ? {...q, completed: true} : q));
       console.log("correct!")
     } else {
+      setQuizQuestions(quizQuestions.map((q) => q.id === questionID ? {...q, attempted: true} : q));
       console.log("incorrect!")
     }
   }
