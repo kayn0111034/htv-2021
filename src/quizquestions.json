@@ -1,4 +1,8 @@
 [
+    {"question" : "COVID-19 is a...",
+        "answers" : ["Allergy", "Person", "Rule",  "Virus"],
+        "correct" : 4
+    },
     {"question" : "Which is not a symptom of the virus?",
         "answers" : ["Coughing", "Feeling Tired", "Laughing", "Feeling Hot"],
         "correct" : 3
@@ -6,6 +10,14 @@
     {"question" : "Which is not a way I can protect myself from the virus?",
         "answers" : ["Washing my hands often", "Sharing snacks with friends", "Wearing a mask",  "Keeping a 2m distance from everybody"],
         "correct" : 2
+    },
+    {"question" : "Who get catch the virus?",
+        "answers" : ["My grandparents", "My parents", "My friends", "Everyone"],
+        "correct" : 4
+    },
+    {"question" : "How long should people quarantine to be safe?",
+        "answers" : ["2 Weeks", "1 Day", "1 Month", "1 Year"],
+        "correct" : 1
     }
     
 ]
