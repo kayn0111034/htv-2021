@@ -15,8 +15,6 @@ function App() {
     <Router>
       <div className ="navBar">
       <NavBar></NavBar>
-      <Link to="/home"><button>home</button></Link>
-      <Link to="/aboutus"><button>about us</button></Link>
       </div> 
       <Route path="/" exact render={()=>{ 
         return(
