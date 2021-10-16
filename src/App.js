@@ -43,8 +43,8 @@ function App() {
     }>
     </Route>
 
-    <Route path="home" exact render={()=> <Home></Home>}></Route>
-    <Route path="aboutus" exact render={()=> <AboutUs></AboutUs>}></Route>
+    <Route path="/home" exact render={()=> <Home></Home>}></Route>
+    <Route path="/aboutus" exact render={()=> <AboutUs></AboutUs>}></Route>
 
     </Router>
 
