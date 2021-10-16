@@ -14,8 +14,8 @@ const AboutUs = () => {
            
 
            <div>
-               <h2>Alex 1?1</h2>
-               <div>short bio</div>
+               <h2>Alex Teeter</h2>
+               <div>Hello, I'm Alex Teeter! I'm currently going to UTSC and double majoring in Computer Science and Mathematics! I have interests in data science and data visualization!</div>
             </div>
            <div>
                <h2>Christine Zhao</h2>
