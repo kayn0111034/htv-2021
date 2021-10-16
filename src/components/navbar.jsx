@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 
-const navbar = () => {
+const navbar = ({startQuiz}) => {
   return (
       <div>
           <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -11,7 +11,7 @@ const navbar = () => {
             <ul class="navbar-nav flex-grow-1 navbar-collapse collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                      <Link to="/quiz">
+                      <Link to="/quiz" onClick={startQuiz}>
                       <a class="nav-link" href="#">Covid Quiz <span class="sr-only">(current)</span></a>
                       </Link>
                     </li>
