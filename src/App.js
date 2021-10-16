@@ -10,11 +10,39 @@ import NavBar from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
+import CovidQuestions from './quizquestions.json'
+
 function App() {
+
+  const [quizQuestions, setQuizQuestions] = useState([]);
+
+  const getQuestions = () =>{
+    var questions = [];
+    for (var i = 0; i < CovidQuestions.length; i++){
+      questions.push({
+        question: CovidQuestions[i].question,
+        answers: CovidQuestions[i].answers,
+        correct: CovidQuestions[i].correct
+      });
+      console.log(questions[i]);
+    }
+    setQuizQuestions(questions);
+    console.log(quizQuestions.length)
+  }
+
+  const getQuiz = () =>{
+    return (
+      <CovidQuiz questions={quizQuestions}></CovidQuiz>
+    )
+  }
+
+
+
   return (
     <Router>
       <div className ="navBar">
-      <NavBar></NavBar>
+        <NavBar startQuiz={()=> {getQuestions()}}></NavBar>
+        <NavBar></NavBar>
       </div> 
       <Route path="/" exact render={()=>{ 
         return(
@@ -43,6 +71,7 @@ function App() {
 
     <Route path="/home" exact render={()=> <Home></Home>}></Route>
     <Route path="/aboutus" exact render={()=> <AboutUs></AboutUs>}></Route>
+    <Route path="/quiz" exact render={getQuiz}></Route>
 
     </Router>
 
