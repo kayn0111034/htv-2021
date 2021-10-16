@@ -6,16 +6,17 @@ import Home from './components/Home';
 import CovidQuiz from './components/CovidQuiz';
 import AboutUs from './components/AboutUs';
 import SelfDiagnosis from './components/SelfDiagnosis';
+import NavBar from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (
     <Router>
-      <div>
+      <div className ="navBar">
+      <NavBar></NavBar>
       <Link to="/home"><button>home</button></Link>
       <Link to="/aboutus"><button>about us</button></Link>
-   
-
       </div> 
       <Route path="/" exact render={()=>{ 
         return(
