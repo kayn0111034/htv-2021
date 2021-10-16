@@ -9,14 +9,33 @@ import SelfDiagnosis from './components/SelfDiagnosis';
 import NavBar from './components/navbar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
+import diagnosisChecklist from './selfDiagnosisChecklist.json'
 import CovidQuestions from './quizquestions.json'
 
 function App() {
 
   const [quizQuestions, setQuizQuestions] = useState([]);
   const [quizStarted, setQuizStarted] = useState(false);
+  const [diagnosisStarted, setDiagnosisStarted] = useState(false);
 
+  const [checklist, setChecklist] = useState([]);
+
+
+  const getChecklist = () =>{
+    var cl = [];
+    for (var i = 0; i < diagnosisChecklist.length; i++){
+      cl.push({
+        id: i,
+        title: diagnosisChecklist[i].title,
+        yesAnswer: diagnosisChecklist[i].yesAnswer,
+        noAnswer: diagnosisChecklist[i].noAnswer,
+        answer: null,
+        answered: false
+      })
+    }
+    setChecklist(cl);
+    setDiagnosisStarted(true);
+  }
 
 
   const startQuiz = () =>{
@@ -53,6 +72,10 @@ function App() {
     }
   }
 
+  const selectSelfDiagnosis = (id, selection) =>{
+    setChecklist( checklist.map((option)=> option.id === id ? {...option, answer: selection, answered: true} : option));
+
+  }
 
 
 
@@ -91,6 +114,7 @@ function App() {
     <Route path="/home" exact render={()=> <Home></Home>}></Route>
     <Route path="/aboutus" exact render={()=> <AboutUs></AboutUs>}></Route>
     <Route path="/quiz" exact render={getQuiz}></Route>
+    <Route path="/selfdiagnosis" exact render={() => <SelfDiagnosis started={diagnosisStarted} onStart={getChecklist} checklist={checklist} onClick={selectSelfDiagnosis} ></SelfDiagnosis>}></Route>
 
     </Router>
 
