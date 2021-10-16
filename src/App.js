@@ -7,6 +7,9 @@ import CovidQuiz from './components/CovidQuiz';
 import AboutUs from './components/AboutUs';
 import SelfDiagnosis from './components/SelfDiagnosis';
 import NavBar from './components/navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 function App() {
   return (
     <Router>
