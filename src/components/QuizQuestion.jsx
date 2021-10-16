@@ -1,10 +1,23 @@
-const QuizQuestion = ( {question}) => {
+const QuizQuestion = ( {question, onClick}) => {
+
+    const checkAnswer = () =>{
+
+    }
+
     return (
         <div>
             <h1>{question.question}</h1>
             {question.answers.map((ans)=>(
-                <h2>{ans}</h2>
-            ))}
+                    <button className="btn"  onClick={()=>{onClick(question.id, ans)}}>{ans}</button>
+                ))}
+            {question.completed ?
+                <div>
+                    Correct!
+                </div>  
+                : null}
+            
+
+            
         </div>
     )
 }

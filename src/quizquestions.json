@@ -1,11 +1,11 @@
 [
     {"question" : "Which is not a symptom of the virus?",
         "answers" : ["Coughing", "Feeling Tired", "Laughing", "Feeling Hot"],
-        "correct" : [3]
+        "correct" : 3
     },
-    {"question" : "Which are ways I can protect myself from the virus?",
-        "answers" : ["Washing my hands often", "Wearing a mask", "Sharing snacks with friends", "Keeping a 2m distance from everybody"],
-        "correct" : [1, 2, 4]
+    {"question" : "Which is not a way I can protect myself from the virus?",
+        "answers" : ["Washing my hands often", "Sharing snacks with friends", "Wearing a mask",  "Keeping a 2m distance from everybody"],
+        "correct" : 2
     }
     
 ]
