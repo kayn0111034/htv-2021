@@ -15,6 +15,11 @@
         "answers" : ["My grandparents", "My parents", "My friends", "Everyone"],
         "correct" : 4
     },
+    {"question" : "Why do people quarantine?",
+        "answers" : ["To stop the virus from spreading", "To grow their hair", "To make the virus feel lonely", "To make time go slower"],
+        "correct" : 1
+    },
+
     {"question" : "How long should people quarantine to be safe?",
         "answers" : ["2 Weeks", "1 Day", "1 Month", "1 Year"],
         "correct" : 1

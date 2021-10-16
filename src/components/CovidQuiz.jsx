@@ -1,16 +1,24 @@
 import QuizQuestion from './QuizQuestion'
 
-const CovidQuiz = ({questions, onClick}) => {
+const CovidQuiz = ({quizStarted, onStartQuiz, questions, onClick}) => {
     return (
         <div>
             <div>
                 <h1>Covid Quiz</h1>
             </div>
+
+            {quizStarted ?
+              <div>
+              {questions.map((q) =>(
+                  <QuizQuestion question={q} onClick={onClick}></QuizQuestion>
+              ))}
+          </div>          
+            :
             <div>
-                {questions.map((q) =>(
-                    <QuizQuestion question={q} onClick={onClick}></QuizQuestion>
-                ))}
+                <button class="btn" onClick={onStartQuiz}>Start The Quiz!</button>
             </div>
+            }
+
 
         </div>
     )
