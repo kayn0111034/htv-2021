@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const navbar = () => {
   return (
       <div>
-          <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <nav class="navbar navbar-expand-md navbar-dark bg-dark p-2">
             <Link to="/home">
             <a class="navbar-brand" href="#"><b>TeamName</b></a>
             </Link>
