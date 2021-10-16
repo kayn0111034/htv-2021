@@ -7,18 +7,22 @@ const QuizQuestion = ( {question, onClick}) => {
     return (
         <div>
             <h1>{question.question}</h1>
-            {question.answers.map((ans)=>(
-                    <button className="btn"  onClick={()=>{onClick(question.id, ans)}}>{ans}</button>
-                ))}
+
             {question.completed ?
                 <div>
-                    Correct!
+                    {question.answers.map((ans)=>(
+
+                        <div className={`btn ${question.answers[question.correct - 1] == ans ? " correctAnswer" : ""}`}>{ans}</div>
+                    ))}
+
+                    <div>Correct!</div>
                 </div>  
                 : <div>
+                    {question.answers.map((ans)=>(
+                            <button className="btn" onClick={()=>{onClick(question.id, ans)}}>{ans}</button>
+                    ))}
                     {question.attempted ?
-                    <div>
-                        That's not quite it. Try it again!
-                    </div>
+                        <div>That's not quite it. Try it again!</div>
                     :null
                     }
                     </div>}
