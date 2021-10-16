@@ -1,12 +1,12 @@
 [
     {
-        "title": "I can breathe",
-        "yesAnswer": "Congratulations! No need to worry about your breathing.",
-        "noAnswer": "Please talk to a guardian."
+        "title": "I am having difficulties breathing.",
+        "yesAnswer": "Great! No need to worry about your breathing.",
+        "noAnswer": "Please talk to a guardian and seek out a medical professional as soon as possible"
     },
     {
-        "title": "I can taste my food",
-        "yesAnswer": "Congratulations! No need to worry about your taste.",
+        "title": "I am tasting things normally",
+        "yesAnswer": "Great! No need to worry about your taste.",
         "noAnswer": "Please talk to a guardian."
     },
     {

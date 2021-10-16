@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <div class="d-flex flex-column p-2">
-            <div>
+        <div >
+            <div class="d-flex p-2 m-2 justify-content-center">
                 <h1>What is Covid-19?</h1>
                 <ul>
                     <li>
@@ -13,30 +13,34 @@ const Home = () => {
                     <li>It infects people primarily through small particles of bacteria spread by people either coughing
                         or sneezing
                     </li>
-
                 </ul>
             </div>
             <div>
-                <h1>What are its symptoms?</h1>
-
-                <h4>Some of its more common symptoms include:</h4>
-                <ul>
-                    <li>Fever</li>
-                    <li>Coughing</li>
-                    <li>Tiredness</li>
-                    <li>Losing your sense of taste</li>
-                </ul>
                 
-                <h4>Some less common symptoms:</h4>
-                <ul>
-                    <li>Sore throat</li>
-                    <li>Headache</li>
-                    <li>Aches and pains</li>
-                    <li>Diarrhoea</li>
-                    <li>Rashes</li>
-                    <li>Red or irritated eyes</li>
-                </ul>
-
+            <h1 class="d-flex justify-content-center">What are its symptoms?</h1>
+            <div class="d-flex justify-content-center">
+                <div class="p-2 mx-3">
+                    <h4>Some of its more common symptoms include:</h4>
+                    <ul>
+                        <li>Fever</li>
+                        <li>Coughing</li>
+                        <li>Tiredness</li>
+                        <li>Losing your sense of taste</li>
+                    </ul>
+                </div>
+                <div class="p-2 mx-3">
+                    <h4>Some less common symptoms:</h4>
+                    <ul>
+                        <li>Sore throat</li>
+                        <li>Headache</li>
+                        <li>Aches and pains</li>
+                        <li>Diarrhoea</li>
+                        <li>Rashes</li>
+                        <li>Red or irritated eyes</li>
+                    </ul>
+                </div>
+                
+            </div>
                 <h4>Serious Symptoms:</h4>
                 <ul>
                     <li>Trouble or difficulty breathing</li>
