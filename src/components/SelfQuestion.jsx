@@ -5,8 +5,8 @@ const SelfQuestion = ({situation, onSelectAnswer}) => {
                 <h1>{situation.title}</h1>
             </div>
             <div>
-                <button class="btn" onClick={() =>{onSelectAnswer(situation.id, true)}}>Yes</button>
-                <button class="btn" onClick={() =>{onSelectAnswer(situation.id, false)}}>No</button>
+                <button className={`btn ${situation.answered && situation.answer ? " selfDiagnosisPicked" : ""}`} onClick={() =>{onSelectAnswer(situation.id, true)}}>Yes</button>
+                <button className={`btn ${situation.answered && !situation.answer ? " selfDiagnosisPicked" : ""}`} onClick={() =>{onSelectAnswer(situation.id, false)}}>No</button>
             </div>
             {
                 situation.answered ?

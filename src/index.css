@@ -15,3 +15,7 @@ code {
 div .correctAnswer{
   background-color: aquamarine;
 }
+
+button .selfDiagnosisPicked{
+  border-color: aquamarine;
+}
