@@ -1,12 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom"
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Home from './components/Home';
+import CovidQuiz from './components/CovidQuiz';
+import AboutUs from './components/AboutUs';
+import SelfDiagnosis from './components/SelfDiagnosis';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <Router>
+      <div>
+      <Link to="/home"><button>home</button></Link>
+      <Link to="/aboutus"><button>about us</button></Link>
+   
+
+      </div> 
       <Route path="/" exact render={()=>{ 
         return(
           <div className="App">
@@ -23,6 +33,7 @@ function App() {
             >
               Learn React
             </a>
+
           </header>
         </div> 
         )       
@@ -30,6 +41,10 @@ function App() {
 
     }>
     </Route>
+
+    <Route path="home" exact render={()=> <Home></Home>}></Route>
+    <Route path="aboutus" exact render={()=> <AboutUs></AboutUs>}></Route>
+
     </Router>
 
   );
