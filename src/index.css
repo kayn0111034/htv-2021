@@ -16,6 +16,7 @@ div{
 }
 
 .home div{
+  text-shadow: 0.2em 0.2em 0.2em rgb(0, 0, 0);
   padding: 5%;
 }
 
@@ -68,11 +69,13 @@ code {
 
 div .correctAnswer{
   background-color: aquamarine;
+  font-weight:bold;
 }
 
 .quiz-option, .interactive-pane button  {
   border-color: aquamarine;
-  margin: 1%;
+  margin: 0.5%;
+  font-weight:bold;
   
 }
 
@@ -83,10 +86,6 @@ div .correctAnswer{
   
 }
 
-.question-box{
-  display: flex;
-  flex-direction: row;
-}
 
 
 .interactive-pane{
