@@ -1,6 +1,6 @@
 import Wesley from '../pictures/bio_pictures/Wesley.png';
 import William from '../pictures/bio_pictures/William.jpg';
-import Christine from '../pictures/bio_pictures/Christine.jpg'
+import Christine from '../pictures/bio_pictures/Christine.jpg';
 const AboutUs = () => {
     return (
         <div class = "about-us-padding">
@@ -28,8 +28,8 @@ const AboutUs = () => {
 
             <div>
                 <div class="p-2 mx-3">
-                    <h2 class="d-flex justify-content-end mgnen" id="mgnenc">Christine Zhao</h2>
-                    <div class="d-flex justify-content-evenly mgne">
+                    <h2 class="d-flex justify-content-end mgnen" >Christine Zhao</h2>
+                    <div class="d-flex justify-content-evenly">
                     <img src={Christine} alt="Christine" height="220px"/>
                         Hi, I'm Christine! I am a first year at UTSC in the Coop<br/>
                         Computer Science program. I am learning Python, HTML, <br/> CSS and JavaScript.
@@ -46,7 +46,7 @@ const AboutUs = () => {
                             HTML, CSS, while also learning a bit of JavaScript. <br/>
                             I plan on studying computer science in university <br/>
                             and am also interested in web development.
-                            <img  src={Wesley} alt="Wes" height="220px"/>
+                            <img  src={Wesley} alt="Wesley" height="220px"/>
                         </div>
                     </div>
                     
@@ -55,7 +55,7 @@ const AboutUs = () => {
                     <div class="p-2 mx-3">
                         <h2 class="d-flex justify-content-end mgnen" >William Zhang</h2>
                         <div class="d-flex justify-content-evenly" id="special">
-                            <img src={William} alt="Will" height="220px" />
+                            <img src={William} alt="William" height="220px" />
                             Hi, I'm William and I'm currently attending UTSC <br/>
                             studying Computer Science. I have a basic understanding <br/> 
                             of Python, HTML, CSS, and Java, however I am still<br/>
