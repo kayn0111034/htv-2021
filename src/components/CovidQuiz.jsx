@@ -3,7 +3,7 @@ import QuizQuestion from './QuizQuestion'
 const CovidQuiz = ({quizStarted, onStartQuiz, questions, onClick}) => {
     return (
         <div class="interactive-pane">
-            <div class="p-1 m-2">
+            <div class="interactive-pane-header">
                 <h1>Covid Quiz</h1>
             </div>
 
@@ -14,8 +14,8 @@ const CovidQuiz = ({quizStarted, onStartQuiz, questions, onClick}) => {
               ))}
           </div>          
             :
-            <div>
-                <button class="btn" onClick={onStartQuiz}>Start The Quiz!</button>
+            <div class="start-button">
+                <button class="btn " onClick={onStartQuiz}>Start The Quiz!</button>
             </div>
             }
 

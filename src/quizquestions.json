@@ -8,7 +8,7 @@
         "correct" : 3
     },
     {"question" : "Which is not a way I can protect myself from the virus?",
-        "answers" : ["Washing my hands often", "Sharing snacks with friends", "Wearing a mask",  "Keeping a 2m distance from everybody"],
+        "answers" : ["Washing my hands often", "Sharing snacks with friends", "Wearing a mask",  "Keeping a 2m distance from people"],
         "correct" : 2
     },
     {"question" : "Who can catch the virus?",

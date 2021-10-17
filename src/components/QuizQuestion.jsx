@@ -12,7 +12,7 @@ const QuizQuestion = ( {question, onClick}) => {
                     <div>
                         {question.answers.map((ans)=>(
 
-                            <div className={`btn quiz-option ${question.answers[question.correct - 1] == ans ? " correctAnswer" : ''}`}>{ans}</div>
+                            <div className={`btn quiz-option ${question.answers[question.correct - 1] == ans ? " correctAnswer" : ""}`}>{ans}</div>
                         ))}
 
                         <div>Correct!</div>
