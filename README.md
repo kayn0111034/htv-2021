@@ -12,6 +12,6 @@ Our project is a Covid-19 Information Site which is aimed to inform children abo
 
 ## Members
 - Alex (https://github.com/ATeeter-UTSC)
-- Christine Z (https://github.com/Penguinfami)
+- Christine Z (https://github.com/Penguinfami) Christine is our MVP!
 - Wesley C (https://github.com/kayn0111034)
 - Willim Z (https://github.com/SuperiorNepu)
