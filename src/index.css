@@ -139,3 +139,11 @@ div .start-button{
   text-align: center;
   text-shadow: 0.2em 0.2em 0.4em rgb(0, 0, 0);
 }
+
+.navbar{
+  text-decoration: none;
+}
+
+.redirectlink{
+  text-decoration: none;
+}

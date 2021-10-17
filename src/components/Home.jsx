@@ -51,7 +51,7 @@ const Home = () => {
                             <li>Chest Pain</li>
                         </ul>
                     </div>    
-                    <p>Seek <b>immediate medical attention</b> if you have serious symptoms. 
+                    <p>Notify your parents and seek <b>immediate medical attention</b> if you have serious symptoms. 
                     Always call before visiting your doctor or health facility.
                     People with mild symptoms who are otherwise healthy should manage their symptoms at home.
                     On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, 
@@ -89,7 +89,7 @@ const Home = () => {
                     <div>
                         <h1>How well do you know Covid?</h1>
                         
-                        <p>Click <Link to="/Quiz"> here</Link> to test your knowledge of Covid-19!</p>
+                        <p >Click <Link to="/Quiz" class="redirectlink"> here</Link> to test your knowledge of Covid-19!</p>
                         
                     </div>
         </div>
