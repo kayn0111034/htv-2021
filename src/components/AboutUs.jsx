@@ -4,13 +4,13 @@ const AboutUs = () => {
            
            <h1 class="d-flex justify-content-center" >About Us</h1>
            <div class="d-flex justify-content-center mb-5">
-                    We are a team of 4 participating in Hack the Valley 5. <br/>
-                For this hackathon, we developed a project that aims to <br/>
-                help children gain a better understanding Covid-19. To do <br/> 
-                this, we gave the information about covid in a child-friendly<br/>
-                way, and also gave them a fun quiz to test their memory and <br/>
-                strengthen their knowledge of Covid and its effects, so they <br/>
-                can stay safe.
+                Hi, we are Events Encapsulated, a team of 4 participating  <br/>
+                in Hack the Valley 5. For this hackathon, we developed a <br/>
+                project that aims to help children gain a better understanding <br/> 
+                of Covid-19. To do this, we gave the information about covid <br/>
+                in a child-friendly way, and also gave them a fun quiz to test <br/>
+                their memory and strengthen their knowledge of Covid and  <br/>
+                its effects, so they and their family can stay safe and healthy.
            </div>
            
            <div class="p-2 mx-3">
