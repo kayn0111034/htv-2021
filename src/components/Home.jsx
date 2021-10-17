@@ -74,7 +74,8 @@ const Home = () => {
                             </li>
                         </ul>
                     </div>
-            </div>        
+            </div> 
+            <div class = "box4">       
                     <div>
                         <h1>Rules and Regulations</h1>
                         <ul>
@@ -86,6 +87,7 @@ const Home = () => {
                             </li>
                         </ul>
                     </div>
+            </div>
                     <div>
                         <h1>How well do you know Covid?</h1>
                         

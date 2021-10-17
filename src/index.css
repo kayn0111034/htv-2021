@@ -68,6 +68,17 @@ div .navbar a{
   display: flex;
   align-items:center;
 }
+.box4{
+  height: 75vh;
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("pictures/covid19\ family\ safety\ new\ bg.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+  display: flex;
+  align-items:center;
+}
 
 
 
@@ -113,6 +124,7 @@ div .interactive-pane{
   width: 100%;
   max-width: 1200px;
   margin:auto;
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("pictures/Interactive_pane_bg.jpg");
   background-color: rgb(158, 188, 226);
   padding: 3%;
   border-radius: 10%;
