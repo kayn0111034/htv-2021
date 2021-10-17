@@ -20,7 +20,7 @@ div{
   padding: 5%;
 }
 
-.home div li, .home div p{
+.home div li, .home div p, .aboutfont{
   font-size: 1.7em;
   font-weight: bolder;
 }
@@ -123,7 +123,7 @@ div .quiz-question{
   
 }
 
-.quiz-question h1, div .self-diagnosis-heading{
+.quiz-question h1, div .self-diagnosis-heading, .aboutfont{
   text-shadow: 0.05em 0.1em 0.2em rgb(0, 0, 0);
 }
 

@@ -1,6 +1,6 @@
 const AboutUs = () => {
     return (
-        <div class="p-2">
+        <div class="p-2 aboutfont">
            
            <h1 class="d-flex justify-content-center" >About Us</h1>
            <div class="d-flex justify-content-center mb-5">
