@@ -21,6 +21,10 @@ div{
   
 }
 
+div .bio-box{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5))
+}
+
 .home div li, .home div p, .aboutfont{
   font-size: 1.7em;
   font-weight: bolder;
@@ -130,7 +134,7 @@ div .not-home{
   padding-top:  5em;
 }
 
-div .aboutuspadding{
+div .about-us-padding{
   padding-top:  7.5em;
 }
 
@@ -204,3 +208,4 @@ div .interactive-pane{
 #special{
   margin-right: 3px;
 }
+

@@ -1,10 +1,10 @@
 const AboutUs = () => {
     return (
-        <div class = "aboutuspadding">
+        <div class = "about-us-padding">
             <div class="p-2 aboutfont">
             
             <h1 class="d-flex justify-content-center" >About Us</h1>
-            <div class="d-flex justify-content-center mb-5 ">
+            <div class="d-flex justify-content-center mb-5">
                     Hi, we are Events Encapsulated, a team of 4 participating  <br/>
                     in Hack the Valley 5. For this hackathon, we developed a <br/>
                     project that aims to help children gain a better understanding <br/> 
