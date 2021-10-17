@@ -180,3 +180,14 @@ div .interactive-pane{
     height: 7em;
   }
 }
+
+.mgns{
+  margin-left: 200px;
+}
+
+.mgne{
+  margin-right: 200px;
+}
+.mgnen{
+  margin-right: 365px;
+}

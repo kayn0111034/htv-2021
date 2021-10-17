@@ -5,19 +5,19 @@
         "noAnswer": "Please talk to a guardian and seek out a medical professional as soon as possible"
     },
     {
-        "title": "I am tasting things normally",
+        "title": "Food tastes normal when I eat it",
         "yesAnswer": "Great! No need to worry about your taste.",
         "noAnswer": "Please talk to a guardian."
     },
     {
         "title": "My body feels hotter than usual",
-        "yesAnswer": "Please talk to a guardian.",
+        "yesAnswer": "Please check your temperature and talk to a guardian.",
         "noAnswer": "Great! No need to worry about your temperature."
     },
     {
-        "title": "I know someone who has COVID-19.",
-        "yesAnswer": "If you have been in contact with them within the past 2 weeks, please take a COVID-test and self-isolate.",
-        "noAnswer": "You may not have caught the virus from them."
+        "title": "I know someone close to me who has COVID-19.",
+        "yesAnswer": "If you have been in contact with them within the past 2 weeks, please take a COVID-test and stay at home with your family.",
+        "noAnswer": "If you have Covid-19, you probably didn't get it from them."
     },
     {
         "title": "I went on a trip recently using a plane or a boat",
