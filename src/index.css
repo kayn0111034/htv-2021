@@ -83,7 +83,7 @@ div .correctAnswer{
   font-size: 1.2em;
 }
 
-div .quiz-option, .interactive-pane button {
+div .quiz-option, .interactive-pane button, div .completed-question{
   border-color: aquamarine;
   margin: 0.5%;
   font-weight:bold;
@@ -138,5 +138,4 @@ div .start-button{
   width: 100%;
   text-align: center;
   text-shadow: 0.2em 0.2em 0.4em rgb(0, 0, 0);
-
 }
