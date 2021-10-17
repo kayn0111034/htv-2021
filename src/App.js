@@ -90,33 +90,14 @@ function App() {
       </div> 
       <Route path="/" exact render={()=>{ 
         return(
-          <div className="App">
-          <header className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <p>
-              Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn React
-            </a>
+          <Home></Home>
+        )}}>
+      </Route>
 
-          </header>
-        </div> 
-        )       
-      }
-
-    }>
-    </Route>
-
-    <Route path="/home" exact render={()=> <Home></Home>}></Route>
-    <Route path="/aboutus" exact render={()=> <AboutUs></AboutUs>}></Route>
-    <Route path="/quiz" exact render={getQuiz}></Route>
-    <Route path="/selfdiagnosis" exact render={() => <SelfDiagnosis started={diagnosisStarted} onStart={getChecklist} checklist={checklist} onClick={selectSelfDiagnosis} ></SelfDiagnosis>}></Route>
+      <Route path="/home" exact render={()=> <Home></Home>}></Route>
+      <Route path="/aboutus" exact render={()=> <AboutUs></AboutUs>}></Route>
+      <Route path="/quiz" exact render={getQuiz}></Route>
+      <Route path="/selfdiagnosis" exact render={() => <SelfDiagnosis started={diagnosisStarted} onStart={getChecklist} checklist={checklist} onClick={selectSelfDiagnosis} ></SelfDiagnosis>}></Route>
 
     </Router>
 
