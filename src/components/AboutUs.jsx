@@ -29,7 +29,7 @@ const AboutUs = () => {
                </div>
             <div>
                <h2>William Zhang</h2>
-               <div>Hi, im currently a first year at UTSC</div>
+               <div>Hi, I'm currently a first year at UTSC</div>
             </div>
 
         </div>
