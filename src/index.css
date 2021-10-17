@@ -70,6 +70,31 @@ div .correctAnswer{
   background-color: aquamarine;
 }
 
-button .selfDiagnosisPicked{
+.quiz-option, .interactive-pane button  {
   border-color: aquamarine;
+  margin: 1%;
+  
+}
+
+.quiz-question{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+.question-box{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.interactive-pane{
+  width: 100%;
+  max-width: 1100px;
+  margin:auto;
+  background-color: rgb(158, 188, 226);
+  padding: 2%;
+  border-radius: 10%;
+ 
 }

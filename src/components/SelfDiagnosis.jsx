@@ -3,7 +3,7 @@ import SelfQuestion from './SelfQuestion'
 const SelfDiagnosis = ({started, onStart, checklist, onClick}) => {
     
     return (
-        <div>
+        <div class="interactive-pane">
             <div>
                 <h1>Self Diagnosis</h1>
             </div>

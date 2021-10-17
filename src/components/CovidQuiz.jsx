@@ -2,7 +2,7 @@ import QuizQuestion from './QuizQuestion'
 
 const CovidQuiz = ({quizStarted, onStartQuiz, questions, onClick}) => {
     return (
-        <div>
+        <div class="interactive-pane">
             <div class="p-1 m-2">
                 <h1>Covid Quiz</h1>
             </div>
