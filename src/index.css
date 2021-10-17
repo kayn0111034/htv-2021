@@ -154,6 +154,7 @@ div .interactive-pane{
   border:3px solid rgb(6, 75, 75);
   background-color: rgba(110, 224, 209, 0.377);
   color:rgb(255, 255, 255);
+  border-radius: 25% ;
 }
 
 .start-button .btn:active{
