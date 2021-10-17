@@ -43,7 +43,10 @@ const AboutUs = () => {
 
                 <div class="p-2 mx-3">
                     <h2 class="d-flex justify-content-end">William Zhang</h2>
-                    <div class="d-flex justify-content-end">Hi, I'm William ! I am a first year at UTSC</div>
+                    <div class="d-flex justify-content-end">
+                        Hi, I'm William and I'm currently attending UTSC studying Computer Science. 
+                        I have a basic understanding of Python, HTML, CSS, and Java, however I am
+                        still searching for my main interests.</div>
                 </div>
               
         </div>

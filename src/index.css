@@ -90,6 +90,7 @@ code {
 
 div .correctAnswer{
   background-color: rgb(0, 116, 39);
+  color: rgb(0, 116, 39);
   font-weight:bold;
   font-size: 1.2em;
 }
@@ -101,7 +102,7 @@ div .quiz-option, .interactive-pane button, div .completed-question .quiz-option
   margin: 0.5%;
   font-weight:bold;
   transition: font-size ease-in-out 0.5s;
-  background-color: rgba(249, 255, 253, 0.514);
+  background-color: rgba(249, 255, 253, 0.349);
 }
 
 div .quiz-option:hover{

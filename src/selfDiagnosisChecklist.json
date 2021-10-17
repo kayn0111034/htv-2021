@@ -10,6 +10,11 @@
         "noAnswer": "Please talk to a guardian."
     },
     {
+        "title": "My body feels hotter than usual",
+        "yesAnswer": "Please talk to a guardian.",
+        "noAnswer": "Great! No need to worry about your temperature."
+    },
+    {
         "title": "I know someone who has COVID-19.",
         "yesAnswer": "If you have been in contact with them within the past 2 weeks, please take a COVID-test and self-isolate.",
         "noAnswer": "You may not have caught the virus from them."
