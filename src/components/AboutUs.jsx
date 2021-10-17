@@ -19,7 +19,7 @@ const AboutUs = () => {
             </div>
            <div>
                <h2>Christine Zhao</h2>
-               <div>Hi, I'm Christine! I am a first year at UTSC</div>
+               <div>Hi, I'm Christine! I am a first year at UTSC in the Coop Computer Science program.</div>
                </div>
            <div>
                <h2>Wesley Chui</h2>
