@@ -11,9 +11,16 @@ body {
 }
 
 div{
-  
   color: rgb(255, 255, 255);
-  
+}
+
+.box1{
+  height: 100vh;
+  background-image: url("pictures/what_is_covid_19.png");
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
 }
 
 code {
