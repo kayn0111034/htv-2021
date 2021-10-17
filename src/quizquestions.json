@@ -15,6 +15,10 @@
         "answers" : ["My grandparents", "My parents", "My friends", "Everyone"],
         "correct" : 4
     },
+    {"question" : "What is quarantine?",
+        "answers" : ["Drying off after a shower", "Having to stay home", "Not sleeping for a whole week", "Shopping for masks"],
+        "correct" : 2
+    },
     {"question" : "Why do people quarantine?",
         "answers" : ["To stop the virus from spreading", "To grow their hair", "To make the virus feel lonely", "To make time go slower"],
         "correct" : 1
@@ -24,5 +28,6 @@
         "answers" : ["2 Weeks", "1 Day", "3 hours", "9 Years"],
         "correct" : 1
     }
+
     
 ]
