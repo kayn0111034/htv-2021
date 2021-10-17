@@ -1,5 +1,6 @@
 import Wesley from '../pictures/bio_pictures/Wesley.png';
 import William from '../pictures/bio_pictures/William.jpg';
+import Christine from '../pictures/bio_pictures/Christine.jpg'
 const AboutUs = () => {
     return (
         <div class = "about-us-padding">
@@ -28,9 +29,10 @@ const AboutUs = () => {
             <div>
                 <div class="p-2 mx-3">
                     <h2 class="d-flex justify-content-end mgnen" id="mgnenc">Christine Zhao</h2>
-                    <div class="d-flex justify-content-end mgne">
+                    <div class="d-flex justify-content-evenly mgne">
+                    <img src={Christine} alt="Christine" height="220px"/>
                         Hi, I'm Christine! I am a first year at UTSC in the Coop<br/>
-                        Computer Science program.
+                        Computer Science program. I am learning Python, HTML, <br/> CSS and JavaScript.
                     </div> 
                 </div>
                 </div>

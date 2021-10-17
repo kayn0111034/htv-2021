@@ -99,7 +99,7 @@ code {
 }
 
 div .correctAnswer{
-  background-color: rgb(0, 116, 39);
+  background-color: rgba(247, 247, 247, 0.575) !important;
   color: rgb(0, 116, 39) !important;
   font-weight:bold;
   font-size: 1.2em;
