@@ -1,7 +1,7 @@
 import Wesley from '../pictures/bio_pictures/Wesley.png';
 const AboutUs = () => {
     return (
-        <div class = "aboutuspadding">
+        <div class = "about-us-padding">
             <div class="p-2 aboutfont">
             
             <h1 class="d-flex justify-content-center" >About Us</h1>
