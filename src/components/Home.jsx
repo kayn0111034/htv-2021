@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const Home = () => {
     return (
-        <div >
+        <div class="home" >
             <div class = "box1">
                 <div class="d-flex p-2 m-2 justify-content-center">
                     <h1>What is Covid-19?</h1>
