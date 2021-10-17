@@ -18,6 +18,7 @@ div{
 .home div{
   text-shadow: 0.2em 0.2em 0.2em rgb(0, 0, 0);
   padding: 5%;
+  
 }
 
 .home div li, .home div p, .aboutfont{
@@ -53,8 +54,6 @@ div .navbar .nav-item{
   align-items:center;
   background-attachment: fixed;
 }
-
-
 .box2{
   height: 75vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("pictures/sneezing-kids-cartoon-boys-girls-characters-coughing-catching-flu-coronavirus-disease-symptoms-prevention-concept-178885765.jpg.png");
@@ -127,9 +126,13 @@ div .quiz-question{
   text-shadow: 0.05em 0.1em 0.2em rgb(0, 0, 0);
 }
 
-div .top-padding{
-  height: 5em;
+div .not-home{
+  padding-top:  5em;
 }
+div .aboutuspadding{
+  padding-top:  5em;
+}
+
 
 div .interactive-pane{
   width: 100%;
