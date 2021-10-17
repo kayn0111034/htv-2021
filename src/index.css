@@ -100,6 +100,7 @@ div .quiz-option, .interactive-pane button, div .completed-question{
   margin: 0.5%;
   font-weight:bold;
   transition: font-size ease-in-out 0.5s;
+  background-color: rgba(249, 255, 253, 0.514);
 }
 
 div .quiz-option:hover{
@@ -132,20 +133,24 @@ div .interactive-pane{
   
 }
 
-div .start-button{
+
+.start-button .btn{
   display: flex;
   align-items: center;
   justify-content: center;
   margin: auto;
-}
-
-.start-button .btn{
   width: 350px !important;
   height: 100px;
   font-size: 2.5em;
-  background-color: rgb(167, 233, 255);
+  border:3px solid rgb(6, 75, 75);
+  background-color: rgba(110, 224, 209, 0.377);
+  color:rgb(255, 255, 255);
 }
 
+.start-button .btn:active{
+  background-color: rgba(199, 255, 248, 0.377);
+
+}
 .interactive-pane-header{
   margin:auto;
   width: 100%;
