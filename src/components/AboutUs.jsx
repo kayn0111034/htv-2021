@@ -24,7 +24,7 @@ const AboutUs = () => {
             
             <div>
                 <div class="p-2 mx-3">
-                    <h2 class="d-flex justify-content-end mgnen">Christine Zhao</h2>
+                    <h2 class="d-flex justify-content-end mgnen" id="mgnenc">Christine Zhao</h2>
                     <div class="d-flex justify-content-end mgne">
                         Hi, I'm Christine! I am a first year at UTSC in the Coop<br/>
                         Computer Science program.</div>
