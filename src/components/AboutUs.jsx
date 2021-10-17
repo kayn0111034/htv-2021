@@ -1,6 +1,6 @@
 const AboutUs = () => {
     return (
-        <div class = "not-home">
+        <div class = "aboutuspadding">
             <div class="p-2 aboutfont">
             
             <h1 class="d-flex justify-content-center" >About Us</h1>
@@ -14,12 +14,12 @@ const AboutUs = () => {
                     its effects, so they and their family can stay safe and healthy.
             </div>
             
-            <div class="p-2 mx-3">
-                    <h2 class="d-flex justify-content-start mgns">Alex Teeter</h2>
-                    <div class="d-flex justify-content-start mgns">
-                    Hello, I'm Alex Teeter! I'm currently going to UTSC and <br/> 
-                    double majoring in Computer Science and Mathematics! <br/> 
-                    I have interests in data science and data visualization!
+            <div>
+                <div class="p-2 mx-3">
+                    <h2 class="d-flex justify-content-end mgnen" id="mgnenc">Christine Zhao</h2>
+                    <div class="d-flex justify-content-end mgne">
+                        Hi, I'm Christine! I am a first year at UTSC in the Coop<br/>
+                        Computer Science program.</div>
                     </div>
                 </div>
                 

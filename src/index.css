@@ -185,15 +185,20 @@ div .interactive-pane{
 }
 
 .mgns{
-  margin-left: 200px;
+  margin-left: 80px;
 }
 
 .mgne{
-  margin-right: 200px;
+  margin-right: 50px;
 }
 .mgnen{
-  margin-right: 365px;
+  margin-right: 520px;
 }
+
+#mgnenc{
+  margin-right: 525px;
+}
+
 #special{
-  margin-right: 175px;
+  margin-right: 3px;
 }
