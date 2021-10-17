@@ -20,7 +20,7 @@ const Home = () => {
             <h1 class="d-flex justify-content-center">What are its symptoms?</h1>
             <div class="d-flex justify-content-center">
                 <div class="p-2 mx-3">
-                    <h4>Some of its more common symptoms include:</h4>
+                    <h4>Common Symptoms</h4>
                     <ul>
                         <li>Fever</li>
                         <li>Coughing</li>
@@ -29,7 +29,7 @@ const Home = () => {
                     </ul>
                 </div>
                 <div class="p-2 mx-3">
-                    <h4>Some less common symptoms:</h4>
+                    <h4>Uncommon Symptoms</h4>
                     <ul>
                         <li>Sore throat</li>
                         <li>Headache</li>
@@ -41,12 +41,15 @@ const Home = () => {
                 </div>
                 
             </div>
-                <h4>Serious Symptoms:</h4>
-                <ul>
-                    <li>Trouble or difficulty breathing</li>
-                    <li>Loss of movement in arms and legs</li>
-                    <li>Chest Pain</li>
-                </ul>
+                <div class="d-flex justify-content-center">
+                    <h4 class="mx-3">Serious Symptoms:</h4>
+                    <ul class="mx-3">
+                        <li>Trouble or difficulty breathing</li>
+                        <li>Loss of movement in arms and legs</li>
+                        <li>Chest Pain</li>
+                    </ul>
+                </div>
+                
                 <p>Seek <b>immediate medical attention</b> if you have serious symptoms. 
                 Always call before visiting your doctor or health facility.
                 People with mild symptoms who are otherwise healthy should manage their symptoms at home.
