@@ -12,7 +12,7 @@ const navbar = () => {
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                       <Link to="/quiz">
-                      <a class="nav-link" href="#">Covid Quiz <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="#">Covid Quiz </a>
                       </Link>
                     </li>
                     <li class="nav-item active">
