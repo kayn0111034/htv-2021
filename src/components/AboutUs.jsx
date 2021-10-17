@@ -7,7 +7,7 @@ const AboutUs = () => {
             
             <h1 class="d-flex justify-content-center" >About Us</h1>
             <div class="d-flex justify-content-center mb-5">
-                    Hi, we are Events Encapsulated, a team of 4 participating  <br/>
+                    Hi all, we are Events Encapsulated, a team of 4 participating  <br/>
                     in Hack the Valley 5. For this hackathon, we developed a <br/>
                     project that aims to help children gain a better understanding <br/> 
                     of Covid-19. To do this, we gave the information about covid <br/>
@@ -30,8 +30,9 @@ const AboutUs = () => {
                     <h2 class="d-flex justify-content-end mgnen" id="mgnenc">Christine Zhao</h2>
                     <div class="d-flex justify-content-end mgne">
                         Hi, I'm Christine! I am a first year at UTSC in the Coop<br/>
-                        Computer Science program.</div> 
-                    </div>
+                        Computer Science program.
+                    </div> 
+                </div>
                 </div>
                 
                 <div>
@@ -43,7 +44,7 @@ const AboutUs = () => {
                             HTML, CSS, while also learning a bit of JavaScript. <br/>
                             I plan on studying computer science in university <br/>
                             and am also interested in web development.
-                            <img  src={Wesley} alt="Wes" height="270px"/>
+                            <img  src={Wesley} alt="Wes" height="220px"/>
                         </div>
                     </div>
                     
@@ -52,7 +53,7 @@ const AboutUs = () => {
                     <div class="p-2 mx-3">
                         <h2 class="d-flex justify-content-end mgnen" >William Zhang</h2>
                         <div class="d-flex justify-content-evenly" id="special">
-                            <img src={William} alt="Will" height="250px"/>
+                            <img src={William} alt="Will" height="220px" />
                             Hi, I'm William and I'm currently attending UTSC <br/>
                             studying Computer Science. I have a basic understanding <br/> 
                             of Python, HTML, CSS, and Java, however I am still<br/>

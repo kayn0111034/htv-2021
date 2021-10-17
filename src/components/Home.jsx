@@ -20,31 +20,33 @@ const Home = () => {
             <div class = "box2">    
                 <div>    
                 <h1 class="d-flex justify-content-center">What are its symptoms?</h1>
-                <div class="d-flex justify-content-center">
-                    <div class="p-2 mx-3">
-                        <h4>Common Symptoms</h4>
+                <div class="d-flex justify-content-evenly">
+                    <div class="p-1 mx-3">
+                        <h2>Common Symptoms</h2>
                         <ul>
                             <li>
-                                Covid-19 is a very infectious virus which is able to infect people very quickly
+                                Covid-19 is a very infectious virus which <br/> is able to infect people very quickly
                             </li>
-                            <li>It can spread very quickly in a short amount of time</li>
-                            <li>It infects people primarily through small particles of bacteria spread by people either coughing
-                                or sneezing
+                            <li>It can spread very quickly in a short <br/> amount of time</li>
+                            <li>It infects people primarily through small<br/>  
+                            particles of bacteria spread by people either
+                            coughing or sneezing
                             </li>
                         </ul>
                     </div>
-                    <div class="p-2 mx-3">
-                        <h4>Uncommon Symptoms</h4>
+                    <div class="p-1 mx-3">
+                        <h2>Uncommon Symptoms</h2>
                         <ul>
                             <li>Trouble or difficulty breathing</li>
                             <li>Loss of movement in arms and legs</li>
-                            <li>Chest Pain</li>
+                            <li>Chest pain</li>
+                            <li>Sore throat</li>
                         </ul>
                     </div>
                     
                 </div>
                     <div class="d-flex justify-content-center">
-                        <h4 class="mx-3">Serious Symptoms:</h4>
+                        <h2 class="mx-3 ">Serious Symptoms:</h2>
                         <ul class="mx-3">
                             <li>Trouble or difficulty breathing</li>
                             <li>Loss of movement in arms and legs</li>
