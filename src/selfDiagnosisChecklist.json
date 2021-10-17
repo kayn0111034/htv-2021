@@ -1,8 +1,8 @@
 [
     {
         "title": "I am having difficulties breathing.",
-        "yesAnswer": "Great! No need to worry about your breathing.",
-        "noAnswer": "Please talk to a guardian and seek out a medical professional as soon as possible"
+        "noAnswer": "Great! No need to worry about your breathing.",
+        "yesAnswer": "Please talk to a guardian and seek out a medical professional as soon as possible"
     },
     {
         "title": "Food tastes normal when I eat it",
