@@ -89,13 +89,15 @@ code {
 }
 
 div .correctAnswer{
-  background-color: aquamarine;
+  background-color: rgb(0, 116, 39);
   font-weight:bold;
   font-size: 1.2em;
 }
 
+
 div .quiz-option, .interactive-pane button, div .completed-question .quiz-option{
-  border-color: aquamarine;
+  border-color: rgb(24, 2, 122);
+  color: rgb(255, 255, 255);
   margin: 0.5%;
   font-weight:bold;
   transition: font-size ease-in-out 0.5s;
