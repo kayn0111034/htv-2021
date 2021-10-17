@@ -94,7 +94,7 @@ div .correctAnswer{
   font-size: 1.2em;
 }
 
-div .quiz-option, .interactive-pane button, div .completed-question{
+div .quiz-option, .interactive-pane button, div .completed-question .quiz-option{
   border-color: aquamarine;
   margin: 0.5%;
   font-weight:bold;
