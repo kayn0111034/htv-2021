@@ -11,7 +11,7 @@
         "answers" : ["Washing my hands often", "Sharing snacks with friends", "Wearing a mask",  "Keeping a 2m distance from everybody"],
         "correct" : 2
     },
-    {"question" : "Who get catch the virus?",
+    {"question" : "Who can catch the virus?",
         "answers" : ["My grandparents", "My parents", "My friends", "Everyone"],
         "correct" : 4
     },
