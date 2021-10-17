@@ -16,8 +16,9 @@ const Home = () => {
                         </li>
                     </ul>
                 </div>
+            </div>    
                 <div>
-        </div>            
+                    
                 <h1 class="d-flex justify-content-center">What are its symptoms?</h1>
                 <div class="d-flex justify-content-center">
                     <div class="p-2 mx-3">
