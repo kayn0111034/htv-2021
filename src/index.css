@@ -10,9 +10,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
 div{
   color: rgb(255, 255, 255);
 }
+
 
 .box1{
   height: 100vh;
@@ -21,7 +23,12 @@ div{
   background-position: center;
   display: table;
   background-attachment: fixed;
+  display: flex;
+  align-items:center;
 }
+
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
