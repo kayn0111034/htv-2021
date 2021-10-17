@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 const Home = () => {
     return (
         <div >
-            <div class = "box1">    
+            <div class = "box1">
                 <div class="d-flex p-2 m-2 justify-content-center">
                     <h1>What is Covid-19?</h1>
                     <ul>
@@ -17,8 +17,8 @@ const Home = () => {
                     </ul>
                 </div>
             </div>    
-                <div>
-                    
+            <div class = "box2">    
+                <div>    
                 <h1 class="d-flex justify-content-center">What are its symptoms?</h1>
                 <div class="d-flex justify-content-center">
                     <div class="p-2 mx-3">
@@ -50,15 +50,16 @@ const Home = () => {
                             <li>Loss of movement in arms and legs</li>
                             <li>Chest Pain</li>
                         </ul>
-                    </div>
-                    
+                    </div>    
                     <p>Seek <b>immediate medical attention</b> if you have serious symptoms. 
                     Always call before visiting your doctor or health facility.
                     People with mild symptoms who are otherwise healthy should manage their symptoms at home.
                     On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, 
                     however it can take up to 14 days.</p>
 
-                    </div>
+                </div>
+            </div>
+            <div class = "box3">        
                     <div>
                         <h1>How to prevent spread</h1>
                         <ul>
@@ -73,6 +74,7 @@ const Home = () => {
                             </li>
                         </ul>
                     </div>
+            </div>        
                     <div>
                         <h1>Rules and Regulations</h1>
                         <ul>

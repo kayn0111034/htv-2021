@@ -15,8 +15,27 @@ div{
 }
 
 .box1{
-  height: 100vh;
-  background-image: url("pictures/what_is_covid_19.png");
+  height: 75vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("pictures/what_is_covid_19.png");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+.box2{
+  height: 75vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("pictures/sneezing-kids-cartoon-boys-girls-characters-coughing-catching-flu-coronavirus-disease-symptoms-prevention-concept-178885765.jpg");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+}
+.box3{
+  height: 75vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("pictures/superhero\ punching\ germ.jpg");
+  width: 100%;
   background-size: cover;
   background-position: center;
   display: table;
