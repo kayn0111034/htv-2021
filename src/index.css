@@ -25,6 +25,15 @@ div{
   font-weight: bolder;
 }
 
+div .navbar{
+  position: fixed;
+  width: 100%;
+  font: bold 1.7em Cantarell, sans-serif;
+}
+
+div .navbar a{
+  text-decoration: none;
+}
 
 
 .box1{
@@ -71,14 +80,18 @@ code {
 div .correctAnswer{
   background-color: aquamarine;
   font-weight:bold;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 div .quiz-option, .interactive-pane button {
   border-color: aquamarine;
   margin: 0.5%;
   font-weight:bold;
-  
+  transition: font-size ease-in-out 0.5s;
+}
+
+div .quiz-option:hover{
+  font-size: 1.2em;
 }
 
 div .quiz-question{
@@ -88,21 +101,29 @@ div .quiz-question{
   
 }
 
+.quiz-question h1, div .self-diagnosis-heading{
+  text-shadow: 0.05em 0.1em 0.2em rgb(0, 0, 0);
+}
 
+div .top-padding{
+  height: 5em;
+}
 
-.interactive-pane{
+div .interactive-pane{
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   margin:auto;
   background-color: rgb(158, 188, 226);
-  padding: 2%;
+  padding: 3%;
   border-radius: 10%;
- 
+  
 }
 
 div .start-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: auto;
-  width: 30%;
 }
 
 .start-button .btn{
@@ -116,4 +137,6 @@ div .start-button{
   margin:auto;
   width: 100%;
   text-align: center;
+  text-shadow: 0.2em 0.2em 0.4em rgb(0, 0, 0);
+
 }

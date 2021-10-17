@@ -26,6 +26,8 @@ const navbar = () => {
                 </ul>
               </ul> 
             </nav>
+          <div className="top-padding"></div>
+
       </div>
   )
 }

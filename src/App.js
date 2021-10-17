@@ -88,6 +88,7 @@ function App() {
         <NavBar></NavBar>
      
       </div> 
+      <div className="top-padding"></div>
       <Route path="/" exact render={()=>{ 
         return(
           <div className="App">
