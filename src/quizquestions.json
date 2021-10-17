@@ -19,15 +19,29 @@
         "answers" : ["Drying off after a shower", "Having to stay home", "Not sleeping for a whole week", "Shopping for masks"],
         "correct" : 2
     },
-    {"question" : "Why do people quarantine?",
-        "answers" : ["To stop the virus from spreading", "To grow their hair", "To make the virus feel lonely", "To make time go slower"],
+    {"question" : "Why do I quarantine?",
+        "answers" : ["To stop the virus from spreading", "To grow my  hair", "To make the virus feel lonely", "To make time go slower"],
         "correct" : 1
     },
 
-    {"question" : "How long should people quarantine to be safe?",
+    {"question" : "How long should I quarantine to be safe?",
         "answers" : ["2 Weeks", "1 Day", "3 hours", "9 Years"],
         "correct" : 1
-    }
+    },
 
+    {"question" : "What year was the first case of the virus discovered?",
+        "answers" : ["2021", "2020", "2019", "2018"],
+        "correct" : 3
+    },
+
+    {"question" : "Why do I need a vaccine?",
+        "answers" : ["The virus is scared of needles", "Our body can fight the virus", "We'll get superpowers", "Viruses get sucked out"],
+        "correct" : 2
+    },
+
+    {"question" : "What is not a side effect of the vaccine?",
+        "answers" : ["Fever", "Feeling tired", "Pain in the arm", "Growing a beard"],
+        "correct" : 4
+    }
     
 ]
