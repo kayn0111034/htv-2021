@@ -32,7 +32,10 @@ const AboutUs = () => {
                     <div class="d-flex justify-content-evenly">
                     <img src={Christine} alt="Christine" height="220px"/>
                         Hi, I'm Christine! I am a first year at UTSC in the Coop<br/>
-                        Computer Science program. I am learning Python, HTML, <br/> CSS and JavaScript.
+                        Computer Science program. I am learning Python, HTML, <br/> 
+                        CSS and JavaScript. I am still exploring my interests  <br/>
+                        and hope to learn even more in the future.  
+
                     </div> 
                 </div>
                 </div>
