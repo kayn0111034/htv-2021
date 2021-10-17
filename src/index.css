@@ -29,11 +29,19 @@ div .navbar{
   position: fixed;
   width: 100%;
   font: bold 1.7em Cantarell, sans-serif;
+  justify-content: center;
 }
 
 div .navbar a{
   text-decoration: none;
 }
+
+div .navbar .nav-item{
+  font-size: 1.3em;
+  text-align: center;
+  border-left: 5px solid rgba(77, 74, 74, 0.726);
+}
+
 
 .box1{
   height: 75vh;
@@ -89,7 +97,7 @@ code {
 
 div .correctAnswer{
   background-color: rgb(0, 116, 39);
-  color: rgb(0, 116, 39);
+  color: rgb(0, 116, 39) !important;
   font-weight:bold;
   font-size: 1.2em;
 }
@@ -165,4 +173,10 @@ div .interactive-pane{
 
 .redirectlink{
   text-decoration: none;
+}
+
+@media screen and (max-width: 750px) {
+  div .top-padding{
+    height: 7em;
+  }
 }
