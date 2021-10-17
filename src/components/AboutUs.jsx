@@ -1,3 +1,4 @@
+import Wesley from '../pictures/bio_pictures/Wesley.png';
 const AboutUs = () => {
     return (
         <div class = "aboutuspadding">
@@ -42,6 +43,7 @@ const AboutUs = () => {
                             I plan on studying computer science in university <br/>
                             and am also interested in web development.</div>
                     </div>
+                    <img  src={Wesley} alt="Wes" height="300px"/>
                 </div>
 
                     <div class="p-2 mx-3">
