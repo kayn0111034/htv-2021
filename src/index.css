@@ -21,7 +21,8 @@ div{
 }
 
 .home div li, .home div p{
-  font-size: 1.5em;
+  font-size: 1.7em;
+  font-weight: bolder;
 }
 
 
@@ -70,16 +71,17 @@ code {
 div .correctAnswer{
   background-color: aquamarine;
   font-weight:bold;
+  font-size: 1.3em;
 }
 
-.quiz-option, .interactive-pane button  {
+div .quiz-option, .interactive-pane button {
   border-color: aquamarine;
   margin: 0.5%;
   font-weight:bold;
   
 }
 
-.quiz-question{
+div .quiz-question{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -96,4 +98,22 @@ div .correctAnswer{
   padding: 2%;
   border-radius: 10%;
  
+}
+
+div .start-button{
+  margin: auto;
+  width: 30%;
+}
+
+.start-button .btn{
+  width: 350px !important;
+  height: 100px;
+  font-size: 2.5em;
+  background-color: rgb(167, 233, 255);
+}
+
+.interactive-pane-header{
+  margin:auto;
+  width: 100%;
+  text-align: center;
 }

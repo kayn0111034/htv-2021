@@ -4,7 +4,7 @@ const SelfDiagnosis = ({started, onStart, checklist, onClick}) => {
     
     return (
         <div class="interactive-pane">
-            <div>
+            <div class="interactive-pane-header">
                 <h1>Self Diagnosis</h1>
             </div>
             {
@@ -15,7 +15,7 @@ const SelfDiagnosis = ({started, onStart, checklist, onClick}) => {
                     ))}
                 </div>
                 :
-                <div>
+                <div class="start-button">
                     <button class="btn" onClick={onStart}>Start!!!!!!!!!!!!!</button>
                 </div>
             }

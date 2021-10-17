@@ -22,8 +22,8 @@ function App() {
 
 
   const getChecklist = () =>{
-    var cl = [];
-    for (var i = 0; i < diagnosisChecklist.length; i++){
+    let cl = [];
+    for (let i = 0; i < diagnosisChecklist.length; i++){
       cl.push({
         id: i,
         title: diagnosisChecklist[i].title,
@@ -39,8 +39,8 @@ function App() {
 
 
   const startQuiz = () =>{
-    var questions = [];
-    for (var i = 0; i < CovidQuestions.length; i++){
+    let questions = [];
+    for (let i = 0; i < CovidQuestions.length; i++){
       questions.push({
         id: i,
         question: CovidQuestions[i].question,
