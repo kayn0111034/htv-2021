@@ -1,6 +1,8 @@
 # Hack the Valley 5
 Hi all, we are Events Encapsulated, a team of 4 participating in Hack the Valley 5. For this hackathon, we developed a project that aims to help children gain a better understanding  of Covid-19. To do this, we gave the information about covid in a child-friendly way, and also gave them a fun quiz to test their memory and strengthen their knowledge of Covid and its effects, so they and their family can stay safe and healthy.
 
+Here is the link to access our project: https://eventencapsulated.netlify.app/
+
 ## Languages & Tools
 - Figma
 - HTML
