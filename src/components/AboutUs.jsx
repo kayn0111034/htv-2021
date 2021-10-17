@@ -1,4 +1,5 @@
 import Wesley from '../pictures/bio_pictures/Wesley.png';
+import William from '../pictures/bio_pictures/William.jpg';
 const AboutUs = () => {
     return (
         <div class = "about-us-padding">
@@ -36,23 +37,28 @@ const AboutUs = () => {
                 <div>
                     <div class="p-2 mx-3">
                         <h2 class="d-flex justify-content-start mgns">Wesley Chui</h2>
-                        <div class="d-flex justify-content-start mgns">
+                        <div class="d-flex justify-content-evenly">
                             Hi! I'm Wesley, and I'm a junior in high school. I like <br/>
                             snowboarding and programming, and I know Python, <br/>
                             HTML, CSS, while also learning a bit of JavaScript. <br/>
                             I plan on studying computer science in university <br/>
-                            and am also interested in web development.</div>
+                            and am also interested in web development.
+                            <img  src={Wesley} alt="Wes" height="270px"/>
+                        </div>
                     </div>
-                    <img  src={Wesley} alt="Wes" height="300px"/>
+                    
                 </div>
 
                     <div class="p-2 mx-3">
                         <h2 class="d-flex justify-content-end mgnen" >William Zhang</h2>
-                        <div class="d-flex justify-content-end mgne" id="special">
+                        <div class="d-flex justify-content-evenly" id="special">
+                            <img src={William} alt="Will" height="250px"/>
                             Hi, I'm William and I'm currently attending UTSC <br/>
                             studying Computer Science. I have a basic understanding <br/> 
                             of Python, HTML, CSS, and Java, however I am still<br/>
-                            searching for my main interests.</div>
+                            searching for my main interests.
+                            
+                        </div>
                     </div>
                 
             </div>
