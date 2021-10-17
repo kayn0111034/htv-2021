@@ -20,6 +20,7 @@ const AboutUs = () => {
             <div class="p-2 mx-3">
                 <h2 class="d-flex justify-content-start mgns">Alex Teeter</h2>
                 <div class="d-flex justify-content-start mgns">
+                <img src={Alex} alt="Alex" height="220px"/>
                 Hello, I'm Alex Teeter! I'm currently going to UTSC and <br/> 
                 double majoring in Computer Science and Mathematics! <br/> 
                 I have interests in data science and data visualization!
