@@ -14,25 +14,25 @@ const AboutUs = () => {
                     its effects, so they and their family can stay safe and healthy.
             </div>
             
+            <div class="p-2 mx-3">
+                <h2 class="d-flex justify-content-start mgns">Alex Teeter</h2>
+                <div class="d-flex justify-content-start mgns">
+                Hello, I'm Alex Teeter! I'm currently going to UTSC and <br/> 
+                double majoring in Computer Science and Mathematics! <br/> 
+                I have interests in data science and data visualization!
+                </div>
+            </div>
+
             <div>
                 <div class="p-2 mx-3">
                     <h2 class="d-flex justify-content-end mgnen" id="mgnenc">Christine Zhao</h2>
                     <div class="d-flex justify-content-end mgne">
                         Hi, I'm Christine! I am a first year at UTSC in the Coop<br/>
-                        Computer Science program.</div>
+                        Computer Science program.</div> 
                     </div>
                 </div>
                 
                 <div>
-                    <div class="p-2 mx-3">
-                        <h2 class="d-flex justify-content-end mgnen">Christine Zhao</h2>
-                        <div class="d-flex justify-content-end mgne">
-                            Hi, I'm Christine! I am a first year at UTSC in the Coop<br/>
-                            Computer Science program.</div>
-                        </div>
-                    </div>
-                
-                    <div>
                     <div class="p-2 mx-3">
                         <h2 class="d-flex justify-content-start mgns">Wesley Chui</h2>
                         <div class="d-flex justify-content-start mgns">
@@ -41,8 +41,8 @@ const AboutUs = () => {
                             HTML, CSS, while also learning a bit of JavaScript. <br/>
                             I plan on studying computer science in university <br/>
                             and am also interested in web development.</div>
-                        </div>
                     </div>
+                </div>
 
                     <div class="p-2 mx-3">
                         <h2 class="d-flex justify-content-end mgnen" >William Zhang</h2>
