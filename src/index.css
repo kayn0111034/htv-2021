@@ -38,7 +38,7 @@ div .navbar a{
 
 .box1{
   height: 75vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.8)), url("pictures/what_is_covid_19.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("pictures/what_is_covid_19.png");
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -50,7 +50,7 @@ div .navbar a{
 
 .box2{
   height: 75vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.3)), url("pictures/sneezing-kids-cartoon-boys-girls-characters-coughing-catching-flu-coronavirus-disease-symptoms-prevention-concept-178885765.jpg.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("pictures/sneezing-kids-cartoon-boys-girls-characters-coughing-catching-flu-coronavirus-disease-symptoms-prevention-concept-178885765.jpg.png");
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -59,7 +59,7 @@ div .navbar a{
 }
 .box3{
   height: 75vh;
-  background-image: linear-gradient(to top right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)), url("pictures/superhero\ punching\ germ.jpg");
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("pictures/superhero\ punching\ germ.jpg");
   width: 100%;
   background-size: cover;
   background-position: center;
