@@ -1,6 +1,7 @@
 import Wesley from '../pictures/bio_pictures/Wesley.png';
 import William from '../pictures/bio_pictures/William.jpg';
 import Christine from '../pictures/bio_pictures/Christine.jpg';
+import Alex from '../pictures/bio_pictures/Alex.jpg';
 const AboutUs = () => {
     return (
         <div class = "about-us-padding">
@@ -19,10 +20,11 @@ const AboutUs = () => {
             
             <div class="p-2 mx-3">
                 <h2 class="d-flex justify-content-start mgns">Alex Teeter</h2>
-                <div class="d-flex justify-content-start mgns">
+                <div class="d-flex justify-content-evenly">
                 Hello, I'm Alex Teeter! I'm currently going to UTSC and <br/> 
                 double majoring in Computer Science and Mathematics! <br/> 
                 I have interests in data science and data visualization!
+                <img src={Alex} alt="Alex" height="220px"/>
                 </div>
             </div>
 
